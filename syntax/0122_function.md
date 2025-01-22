@@ -496,8 +496,11 @@ def square(x):
     return x**2 
 
 # lambda 미사용
+squared1 = list(map(square, numbers))
 print(squared1)  # [1, 4, 9, 16, 25]
 
+
 # lambda 사용
+squared2= list(map(lambda x : x**2, numbers))
 print(squared2)  # [1, 4, 9, 16, 25]
 ``` 
