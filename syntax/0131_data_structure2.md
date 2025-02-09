@@ -51,7 +51,17 @@ print(type(person.keys())) # <class 'dict_keys'>
 print(type(person.items())) # <class 'dict_items'>
 print(type(person.values())) # <class 'dict_values'>
 ```
+```python
+dic = {'apple':1, 'banana':2}
+# 키만 순회
+for i in dic: # 기본적으로 키를 순회함
 
+# 값만 순회
+for i in dic.values():
+
+# 키와 값 동시 순회
+for i, j in dic.items()
+```
 
 ✅인덱스 접근은 불가하다 = dict는 순서가 없다
 
